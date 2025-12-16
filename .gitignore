@@ -10,3 +10,8 @@ data/songs/*.asm
 *.sym
 *.lk
 *.sav
+*.asm
+*.pyc
+*.gb
+win3_dx.asm
+.DS_Store

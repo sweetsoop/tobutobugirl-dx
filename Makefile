@@ -1,4 +1,4 @@
-GBDKDIR = ./gbdk
+GBDKDIR = /Users/rain/workspace/sdk/gbdk
 PYIMGTOGBDIR = ./pyimgtogb
 CC=${GBDKDIR}/bin/lcc
 CFLAGS=-Wl-m -Wl-j -msm83:gb -Wf--no-std-crt0
