@@ -16,6 +16,16 @@ This fork eliminates the need for different versions of GBDK and SDCC, so only G
 * [GBDK-2020](https://github.com/gbdk-2020/gbdk-2020)
 * [mmlgb](https://github.com/SimonLarsen/mmlgb)
 
+### config.mk 사용 방법
+
+빌드 시 GBDK-2020의 경로를 커스터마이징하려면 프로젝트 루트에 `config.mk` 파일을 생성하고 다음 내용을 추가하세요:
+
+```makefile
+GBDKDIR = /path/to/your/gbdk
+```
+
+`config.mk` 파일이 없으면 기본값으로 `./gbdk` 경로를 사용합니다.
+
 ## License
 
 The source code for Tobu Tobu Girl is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.

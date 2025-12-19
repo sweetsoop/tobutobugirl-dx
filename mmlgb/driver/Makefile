@@ -1,4 +1,6 @@
-GBDKDIR = /Users/rain/workspace/sdk/gbdk
+-include ../../config.mk
+
+GBDKDIR ?= ../../gbdk
 CC=${GBDKDIR}/bin/lcc
 CFLAGS=-Wl-m -Wl-j -msm83:gb -Wf--no-std-crt0
 

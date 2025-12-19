@@ -15,3 +15,4 @@ data/songs/*.asm
 *.gb
 win3_dx.asm
 .DS_Store
+config.mk
